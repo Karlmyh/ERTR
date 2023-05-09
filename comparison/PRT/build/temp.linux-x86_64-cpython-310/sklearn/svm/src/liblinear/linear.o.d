@@ -1,0 +1,4 @@
+build/temp.linux-x86_64-cpython-310/sklearn/svm/src/liblinear/linear.o: \
+ sklearn/svm/src/liblinear/linear.cpp sklearn/svm/src/liblinear/linear.h \
+ sklearn/svm/src/liblinear/tron.h
+commandline: -DHAVE_CBLAS -Isklearn/svm -I./sklearn/svm -Isklearn/src/cblas -I/home/karl/anaconda3/envs/prenv/lib/python3.10/site-packages/numpy/core/include -I/home/karl/anaconda3/envs/prenv/lib/python3.10/site-packages/numpy/core/include -Ibuild/src.linux-x86_64-3.10/numpy/distutils/include -I/home/karl/anaconda3/envs/prenv/include/python3.10 -c-msse -msse2 -msse3-DHAVE_CBLAS -Isklearn/svm -I./sklearn/svm -Isklearn/src/cblas -I/home/karl/anaconda3/envs/prenv/lib/python3.10/site-packages/numpy/core/include -I/home/karl/anaconda3/envs/prenv/lib/python3.10/site-packages/numpy/core/include -Ibuild/src.linux-x86_64-3.10/numpy/distutils/include -I/home/karl/anaconda3/envs/prenv/include/python3.10
